@@ -1,4 +1,4 @@
-import { Calendar, CircleCheck, MapPin, Plus, Settings2 } from "lucide-react";
+import { Calendar, CircleCheck, MapPin, Plus, Settings2 } from 'lucide-react'
 
 export function TripDetailsPage() {
   return (
@@ -37,15 +37,21 @@ export function TripDetailsPage() {
           <div className="space-y-8">
             <div className="space-y-2.5">
               <div className="flex gap-2 items-baseline">
-                <span className="text-xl text-zinc-300 font-semibold">Dia 17</span>
+                <span className="text-xl text-zinc-300 font-semibold">
+                  Dia 17
+                </span>
                 <span className="text-xs text-zinc-500">Sábado</span>
               </div>
-              <p className="text-zinc-500 text-sm">Nenhuma atividade cadastrada nessa data.</p>
+              <p className="text-zinc-500 text-sm">
+                Nenhuma atividade cadastrada nessa data.
+              </p>
             </div>
 
             <div className="space-y-2.5">
               <div className="flex gap-2 items-baseline">
-                <span className="text-xl text-zinc-300 font-semibold">Dia 18</span>
+                <span className="text-xl text-zinc-300 font-semibold">
+                  Dia 18
+                </span>
                 <span className="text-xs text-zinc-500">Domingo</span>
               </div>
               <div className="space-y-2.5">
@@ -69,9 +75,9 @@ export function TripDetailsPage() {
         <div className="w-80 space-y-6">
           <div className="space-y-6">
             <h2 className="font-semibold text-xl">Links importantes</h2>
-            
+
             <div></div>
-            
+
             <button className="bg-zinc-800 w-full justify-center text-zinc-200 rounded-lg px-5 h-11 font-medium flex items-center gap-2 hover:bg-zinc-700 transition">
               <Plus className="size-5" />
               Cadastrar novo link
