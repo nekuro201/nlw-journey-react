@@ -97,8 +97,8 @@ export function TripDetailsPage() {
                   >
                     https://www.arbbnb.com.br/rooms/1822551218225512182255121822551218225512
                   </a>
-                  <Link2 className="text-zinc-400 size-5 shrink-0" />
                 </div>
+                <Link2 className="text-zinc-400 size-5 shrink-0" />
               </div>
             </div>
 
@@ -120,8 +120,8 @@ export function TripDetailsPage() {
                   <span className="block text-sm text-zinc-400 truncate">
                     jessica-white@gmail.com
                   </span>
-                  <CircleDashed className="text-zinc-400 size-5 shrink-0" />
                 </div>
+                <CircleDashed className="text-zinc-400 size-5 shrink-0" />
               </div>
             </div>
 
